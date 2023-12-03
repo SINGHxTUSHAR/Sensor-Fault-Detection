@@ -26,8 +26,66 @@ Solution: Data fetched by wafers is to be passed through the machine learning pi
 - [Contributing](#contributing)
 - [License](#license)
 
-## Features
+## Features :
 * Real-time monitoring of sensor data.
 * Detection of anomalies or faults in sensor readings.
 * Customizable threshold settings for fault detection.
 * Logging and reporting of detected faults.
+
+## Requirements :
+
+Ensure you have the following dependencies installed:
+
+- Python (version 3.9)
+- Jupyter Notebook
+- Other dependencies (refer to the requirements.txt)
+
+You can install the required Python packages using:
+
+```bash
+pip install -r requirements.txt
+```
+
+
+## Setup :
+
+- Clone the repository:
+```bash
+git clone https://github.com/SINGHxTUSHAR/Sensor-Fault-Detection.git
+cd Sensor-Fault-Detection
+```
+- Create a virtual environment (optional but recommended):
+```bash
+python -m venv venv
+```
+- Activate the virtual environment:
+  - On Windows:
+   ```bash
+   venv\Scripts\activate
+   ```
+  - On macOS/Linux:
+  ```bash
+  source venv/bin/activate
+  ```
+
+## Usage :
+
+- Open the Jupyter Notebook:
+```bash
+jupyter notebook
+```
+- Navigate to the water-sensor-prediction.ipynb notebook and open it.
+- Follow the instructions in the notebook to run the code cells.
+
+## DataSet Link :
+[https://www.kaggle.com/datasets/himanshunayal/waferdataset](https://www.kaggle.com/datasets/himanshunayal/waferdataset)
+
+## Models :
+* `XGBClassifier`
+* `GradientBoostingClassifier`
+* `SVC`
+* `RandomForestClassifier`
+
+## Contributing :
+If you'd like to contribute to this project, please follow the standard GitHub fork and pull request process. Contributions, issues, and feature requests are welcome!
+
