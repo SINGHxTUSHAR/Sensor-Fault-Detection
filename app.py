@@ -48,7 +48,7 @@ def upload():
 
 
         else:
-            return render_template('upload_file.html')
+            return render_template('index.html')
     except Exception as e:
         raise CustomException(e,sys)
     
